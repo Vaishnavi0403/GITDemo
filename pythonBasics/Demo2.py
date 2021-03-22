@@ -17,7 +17,8 @@ values[2] = "RAHUL" #Updating
 del values[0]
 
 print(values)
-
+del values[2]
+print(values)
 # Tuple - Same as LIST Data type but immutable
 val = (1, 2, "rahul", 4.5)
 
